@@ -1,6 +1,5 @@
 Myarr = (1, 2, 3, 4, 5, 6, 7, 8, 9)
-sumto = int(15)
-
+sumto = int(12)
 
 def Sumcheck(Myarr, sumto):
     count = int(0)
@@ -28,9 +27,9 @@ def Sumcheck(Myarr, sumto):
     print(count, "pairs sum up to", sumto)
 
     for i in range(len(First)):
+
         print("Pair",i+1,":[", First[i], ",", Second[i],"]")
 
         continue
-
 
 Sumcheck(Myarr, sumto)
